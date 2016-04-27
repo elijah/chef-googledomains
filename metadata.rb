@@ -1,7 +1,10 @@
 name 'chef-domains'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Elijah Wright'
+maintainer_email 'elijah.wright@gmail.com'
 license 'all_rights'
 description 'Installs/Configures chef-domains'
 long_description 'Installs/Configures chef-domains'
 version '0.1.0'
+
+depends 'apt'
+
